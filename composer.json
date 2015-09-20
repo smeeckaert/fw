@@ -1,0 +1,21 @@
+{
+  "name": "smeeckaert/fw",
+  "description": "PHP Framework",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Martin Smeeckaert",
+      "email": "martin@smeeckaert.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FW\\": ""
+    }
+  },
+  "require": {
+    "smeeckaert/fw-orm": "~1.0",
+    "smeeckaert/fw-controller": "~1.0",
+    "smeeckaert/fw-router": "~1.0"
+  }
+}
